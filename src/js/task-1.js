@@ -1,5 +1,3 @@
-import { reject } from "async";
-
 const delay = (ms) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
